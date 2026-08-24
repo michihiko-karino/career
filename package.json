@@ -1,25 +1,25 @@
 {
-  "name": "portfolio",
+  "name": "career",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy:preview": "wrangler pages deploy public --project-name=portfolio --branch=preview",
-    "deploy:production": "wrangler pages deploy public --project-name=portfolio"
+    "deploy:preview": "wrangler pages deploy public --project-name=career --branch=preview",
+    "deploy:production": "wrangler pages deploy public --project-name=career"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michihiko-karino/portfolio.git"
+    "url": "git+https://github.com/michihiko-karino/career.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/michihiko-karino/portfolio/issues"
+    "url": "https://github.com/michihiko-karino/career/issues"
   },
-  "homepage": "https://github.com/michihiko-karino/portfolio#readme",
+  "homepage": "https://github.com/michihiko-karino/career#readme",
   "devDependencies": {
     "wrangler": "^4.125.0"
   }
