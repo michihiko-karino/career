@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy:preview": "wrangler pages deploy public --project-name=portfolio --branch=preview",
+    "deploy:production": "wrangler pages deploy public --project-name=portfolio"
   },
   "repository": {
     "type": "git",
