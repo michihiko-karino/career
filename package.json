@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy:preview": "wrangler pages deploy public --project-name=career --branch=preview",
-    "deploy:production": "wrangler pages deploy public --project-name=career"
+    "deploy:preview": "wrangler pages deploy public --project-name=michihiko-karino-career --branch=preview",
+    "deploy:production": "wrangler pages deploy public --project-name=michihiko-karino-career"
   },
   "repository": {
     "type": "git",
