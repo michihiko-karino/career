@@ -27,10 +27,12 @@
   <body class="bg-stone-50 font-sans text-slate-800 antialiased">
     <header class="border-b border-stone-200 bg-white">
       <div class="mx-auto max-w-4xl px-6 py-10 sm:px-10">
-        <h1 class="text-3xl font-semibold tracking-tight text-slate-950">狩野紀彦</h1>
+        <div class="flex flex-wrap items-baseline gap-x-4 gap-y-1">
+          <h1 class="text-3xl font-semibold tracking-tight text-slate-950">狩野紀彦</h1>
+          <p class="text-sm text-slate-600">性別: 男・生年月日: 1996/06/27・取得資格: 応用情報技術者・基本情報技術者・大事なもの: 家族</p>
+        </div>
         <nav class="mt-6" aria-label="ページ内ナビゲーション">
           <ul class="flex flex-wrap gap-x-5 gap-y-2 text-sm text-slate-600">
-            <li><a class="underline decoration-stone-300 underline-offset-4" href="#profile">プロフィール</a></li>
             <li><a class="underline decoration-stone-300 underline-offset-4" href="#summary">職務要約</a></li>
             <li><a class="underline decoration-stone-300 underline-offset-4" href="#current-work">現在取り組んでいること</a></li>
             <li><a class="underline decoration-stone-300 underline-offset-4" href="#career">職歴</a></li>
@@ -53,7 +55,7 @@
 
         <article class="mt-10">
           <h3 class="text-xl font-semibold text-slate-950">一貫して大事にしてきたこと</h3>
-          <p class="mt-5 leading-8">組織やチームに左右されず、その開発現場にとって必要な領域へ積極的に手を伸ばしてきた。日常的なアプリケーションエラーの改善やライブラリ更新など、価値を出せる課題を見つけて解決することに注力してきた。</p>
+          <p class="mt-5 leading-8">組織やチームに左右されず、その開発現場にとって必要な領域へ積極的に手を伸ばしてきた。日常的なアプリケーションエラーの監視・修正やライブラリ更新など、価値を出せる課題を見つけて解決することに注力してきた。</p>
 
           <section class="mt-6" aria-labelledby="legacy-improvement">
             <h4 id="legacy-improvement" class="text-base font-semibold leading-7">レガシー改善</h4>
@@ -62,7 +64,7 @@
 
           <section class="mt-6" aria-labelledby="challenge-foundation">
             <h4 id="challenge-foundation" class="text-base font-semibold leading-7">新しいチャレンジに躊躇しないための土台作り</h4>
-            <p class="mt-3 leading-8">システムの変化を過度に恐れず、かつユーザに不安を煽る体験をさせない。システムの枠を超えて、エンジニアの意識を変えていけるように発信と行動をしていく。</p>
+            <p class="mt-3 leading-8">システムの変化を過度に恐れず、かつユーザに不安を煽る体験をさせない。変更の安全性を確かめる仕組みを整え、チームが新しい挑戦を選べる状態をつくっていく。</p>
           </section>
         </article>
 
@@ -109,7 +111,7 @@
           <h3 class="text-xl font-semibold text-slate-950">大規模システムのレガシー改善</h3>
           <p class="mt-5 leading-8">現在は、生成AIによって爆発的に増えるコード改修と、大規模システムのレガシー改善に取り組んでいる。100を超える管理画面の中に、1画面で1万行を超えるUIが複数あるような多機能なシステムであり、単体テストだけですべてを担保することは難しい。</p>
           <p class="mt-3 leading-8">そのため、ユーザに近い動作を確認できるVRT・E2Eのテスト実行基盤を導入している。</p>
-          <p class="mt-3 leading-8">私はコードの品質だけを最終目的にはせず、機能が使いやすく、正しく、実際にユーザに使われることを重視している。全画面・全機能の使い方を把握するためのキャッチアップを大事なスキルセットだと考えている。これはAIに代替される領域というより、人間がAIをエージェントとして動かすために必要な領域だと考えている。</p>
+          <p class="mt-3 leading-8">私はコードの品質だけを最終目的にはせず、機能が使いやすく、正しく、実際にユーザに使われることを重視している。全画面・全機能の使い方を把握するためのキャッチアップが大事なスキルセットだと考えている。</p>
         </article>
 
         <article class="mt-14 border-t border-stone-200 pt-12">
@@ -125,17 +127,6 @@
           <p class="mt-5 leading-8">レガシー改善は、AIによって今後さらに進めやすくなる領域だと考えている。最初にVRTやE2Eのようなユーザに近いテストを整え、機能の正しさを担保できれば、内部実装の改善はAIによるループで進められる部分が増える。</p>
           <p class="mt-3 leading-8">一方で、VRTやE2Eには実行コストがある。守るべき検証を明確にしつつ、将来的には不要になったテストを剥がし、より簡単にしていくことも必要だと考えている。</p>
         </article>
-      </section>
-
-      <section id="profile" class="mt-20" aria-labelledby="profile-heading">
-        <h2 id="profile-heading" class="text-2xl font-semibold tracking-tight text-slate-950">プロフィール</h2>
-        <ul class="mt-7 space-y-3 border-l-2 border-stone-300 pl-5 leading-8">
-          <li>名前: 狩野紀彦</li>
-          <li>性別: 男</li>
-          <li>生年月日: 1996/06/27</li>
-          <li>取得資格: 応用情報技術者・基本情報技術者</li>
-          <li>大事なもの: 家族</li>
-        </ul>
       </section>
 
       <section id="career" class="mt-20" aria-labelledby="career-heading">
